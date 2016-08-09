@@ -1,0 +1,75 @@
+.card {
+    background: #fff;
+    margin: 0;
+    border-radius: 0;
+}
+.item-media{
+    width: 30%;
+}
+.item-media img{
+    width: 100%;
+    height: auto;
+}
+.sale-price,
+.initial-price{
+    font-size: .65rem;
+    display: inline-block;
+    width: 48%;
+}
+.sale-price .price-icon,
+.sale-price .price-num{
+    font-size: .85rem;
+    color: #dd2727;
+}
+.initial-price{
+    color: #999;
+}
+.item-other{
+    color: #999;
+    font-size: .45rem;
+}
+.freight,
+.pay-num,
+.city{
+    display: inline-block;
+    margin-top: 5%;
+}
+.freight,
+.city{
+    width: 30%;
+}
+.pay-num{
+    width: 36%;
+    text-align: center;
+}
+.city{
+    text-align: right;
+}
+.filter, .style{
+    font-size: .75rem;
+    display: inline-block;
+    padding: 3% 0;
+}
+.filter{
+    width: 85%;
+}
+.style{
+    border-left: 1px solid #ddd;
+}
+.style span{
+    width: 100%;
+    height: auto;
+}
+.filter ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.filter ul li{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+.filter ul li:first-child{
+    width: 37%;
+}

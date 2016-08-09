@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+#pay{
+	width:900px;
+	margin:40px auto;
+}
+#pay #pay-menu{
+	width:369px;
+	float:left;
+	background:#fff;
+}
+#pay #pay-menu #pay-menu-con{
+	width:369px;
+	border-bottom:1px solid #ddd;
+}
+#pay #pay-menu #pay-menu-con dl{
+	width:90%;
+	height:30px;
+	margin:10px auto;
+}
+#pay #pay-menu #pay-menu-con dl dd{
+	float:left;
+	width:50%;
+	height:30px;
+	line-height:30px;
+	font-size:16px;
+	font-weight:bold;
+}
+#pay #pay-menu #pay-menu-con p{
+	border-bottom:1px dashed #ddd;
+}
+#pay #pay-menu #pay-menu-con dl dd#right{
+	text-align:right;
+}
+#pay #pay-menu #pay-menu-con ul{
+	width:90%;
+	height:30px;
+	margin:10px auto;
+}
+#pay #pay-menu #pay-menu-con ul li{
+	float:left;
+	width:50%;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+}
+#pay #pay-menu #pay-menu-con ul li.right{
+	text-align:right;
+}
+#pay #pay-menu h1{
+	height:50px;
+	line-height:50px;
+	font-size:16px;
+	font-weight:normal;
+	text-indent:150px;
+}
+#pay #pay-menu #pay-menu-footer{
+	width:369px;
+	height:24px;
+	clear:both;
+	background:url(../images/pay-menu-footer-bg.png) no-repeat;
+}
+#pay-detail{
+	width:510px;
+	float:right;
+	background:#fff;
+}
+#pay-detail h1{
+	height:50px;
+	line-height:50px;
+	border-bottom:1px solid #ddd;
+	text-indent:30px;
+	font-size:20px;
+}
+#pay-detail form dl{
+	margin:20px 0;
+}
+#pay-detail form dl p{
+	border-bottom:1px dashed #ddd;
+}
+#pay-detail form dl dd{
+	position:relative;
+	margin:20px 0;
+}
+#pay-detail form dl dd span{
+	width:100px;
+	text-align:right;
+	display:inline-block;
+}
+#pay-detail form dl dd .text{
+	width:380px;
+	height:30px;
+	border:1px solid #ddd;
+	text-indent:8px;
+}
+#pay-detail form dl dd #submit{
+	width:80px;
+	height:35px;
+	font-size:14px;
+	margin:10px 0 0 0;
+}
+#pay-detail form dl dd b{
+	font-size:20px;
+	color:#ff6900;
+}
+#pay-detail form dl dd textarea{
+	width:380px;
+	height:80px;
+}

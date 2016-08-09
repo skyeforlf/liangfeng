@@ -1,0 +1,10 @@
+.face-img-div{
+    width: 90%;
+    height: auto;
+    margin: 0px auto 10px;
+}
+.face-img-div img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}

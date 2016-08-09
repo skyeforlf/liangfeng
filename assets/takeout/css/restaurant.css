@@ -1,0 +1,243 @@
+@CHARSET "UTF-8";
+#res-face{
+	width:900px;
+	margin:10px auto 0;
+	height:120px;
+	background:#fff;
+}
+#res-face dl{
+	float:left;
+	width:400px;
+	height:110px;
+	margin:5px;
+}
+#res-face dl dt{
+	width:110px;
+	height:110px;
+	background:green;
+	float:left;
+}
+#res-face dl dd{
+	float:left;
+	color:#666;
+	margin:8px 0 0 10px;
+	width:260px;
+}
+#res-face dl dd.res-name{
+	font-size:20px;
+	color:#000;
+	font-weight:bold;
+}
+#res-face ul{
+	float:left;
+	margin:5px 5px 5px 35px;
+	width:450px;
+	height:110px;
+}
+#res-face ul li{
+	width:33%;
+	height:110px;
+	float:left;
+	text-align:center;
+	color:#676767;
+}
+#res-face ul li a{
+	display:block;
+	width:100%;
+	height:110px;
+	background:#eee;
+}
+#res-face ul li span{
+	display:block;
+	width:100%;
+	padding:20px 0 15px 0;
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+}
+#res-face ul li span b{
+	font-size:16px;
+}
+#res-menu{
+	width:900px;
+	margin:10px auto 0;
+	position:relative;
+}
+#res-menu #res-menu-con-left{
+	width:75%;
+	background:#fff;
+}
+#res-menu #res-menu-con-left p{
+	height:50px;
+}
+#res-menu #res-menu-con-left p b{
+	display:inline-block;
+	font-size:18px;
+	text-align:center;
+	height:47px;
+	line-height:60px;
+	font-weight:normal;
+	width:120px;
+	margin:0 0 0 20px;
+	border-bottom:3px solid #ff6900;
+}
+#res-menu #res-menu-con-left p i{
+	display:block;
+	width:535px;
+	height:47px;
+	float:right;
+	border-bottom:3px solid #ddd;
+}
+#res-menu #res-menu-con-left h1{
+	clear:both;
+	height:20px;
+}
+#res-menu #res-menu-con-left dl{
+	margin:10px;
+	background:red;
+}
+#res-menu #res-menu-con-left dl dd{
+	float:left;
+	margin:10px 10px 0 10px;
+}
+#res-menu #res-menu-con-left dl dd i{
+	color:#ff6900;
+	font-size:16px;
+    margin: 0 5px;
+}
+#res-menu #res-menu-con-left-bottom{
+	width:75%;
+	background:#fff;
+}
+#res-menu #res-menu-con-left-bottom p{
+	background:#f5f5f5;
+	height:10px;
+	clear:both;
+}
+#res-menu #res-menu-con-left-bottom dl{
+	width:225px;
+	float:left;
+	position:relative;
+}
+#res-menu #res-menu-con-left-bottom dl dt{
+	margin:20px 20px 10px 20px;
+	width:185px;
+	height:125px;
+	background-size:100% 100%;
+}
+#res-menu #res-menu-con-left-bottom dl dd{
+	margin:0 20px 5px;
+}
+#res-menu #res-menu-con-left-bottom dl dd b{
+	color:#f06;
+	font-size:16px;
+}
+#res-menu #res-menu-con-left-bottom dl:hover{
+	background:#fff8ed;
+}
+#res-menu #res-menu-con-left-bottom dl dd.shopping-trolley{
+	position:absolute;
+	width:26px;
+	height:26px;
+	bottom:0px;
+	right:5px;
+	background:url(../images/add-shopping-trolley.png) no-repeat;
+}
+#res-menu #res-menu-con-left-bottom dl dd.shopping-trolley:hover{
+	background:url(../images/asth.png) no-repeat;
+}
+#res-menu #res-menu-con-left-bottom dl dd.shopping-trolley a{
+	display:block;
+	width:26px;
+	height:26px;
+}
+#res-menu #shopping-trolley{
+	position:fixed;
+	left:858px;
+	bottom:0px;
+	width:225px;
+    z-index: 100;
+}
+#res-menu #shopping-trolley #shopping-title{
+	height:20px;
+	line-height:20px;
+	font-size:12px;
+	color:#999;
+	background:#eee;
+	border-top:3px solid #cd5500;
+}
+#res-menu #shopping-trolley #shopping-title ul li{ 
+	float:left;
+	margin:0 0 0 25px;
+}
+#res-menu #shopping-trolley #shopping-title ul li#food-type{
+	width:95px;
+	margin:0 0 0 10px;
+}
+#res-menu #shopping-trolley #shopping-order dl{
+	height:32px;
+    margin: 0;
+}
+#res-menu #shopping-trolley #shopping-order dl dd{
+	float:left;
+	font-size:16px;
+	height:32px;
+	line-height:32px;
+	border-bottom:1px solid #ddd;
+	border-left:1px solid #ddd;
+	background:#fff;
+}
+#res-menu #shopping-trolley #shopping-order dl dd.food-name-type{
+	width:110px;
+	text-indent:10px;
+	height:32px;
+	line-height:32px;
+	font-size:12px;
+}
+#res-menu #shopping-trolley #shopping-order dl dd.food-price{
+	text-indent:5px;
+	width:54px;
+    text-align: center;
+}
+#res-menu #shopping-trolley #shopping-order dl dd ul li{
+	cursor:pointer;
+	float:left;
+	width:20px;
+	height:30px;
+	text-align:center;
+}
+#res-menu #shopping-trolley #shopping-order p{
+	clear:both;
+}
+#res-menu #shopping-trolley #shopping-footer{
+	height:40px;
+	background:#333;
+	clear:both;
+}
+#res-menu #shopping-trolley #shopping-footer form .shopping-cart-logo{
+	float:left;
+	width:40px;
+	height:40px;
+	background:url(../images/shopping-trolley.png) no-repeat;
+}
+#res-menu #shopping-trolley #shopping-footer form .jiesuan{
+	margin:4px 10px 0 auto;
+	padding:5px 10px;
+	float:right;
+}
+
+.takeout-attention{
+    width: 215px;
+    background: #fff;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.takeout-attention p{
+    padding: 10px 15px;
+}
+.attention-title{
+    width: 100%;
+    padding: 10px 20px;
+    background: #FF6900;
+}

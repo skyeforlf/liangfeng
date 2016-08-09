@@ -1,0 +1,58 @@
+.bg-img{
+    width: 100%;
+    background-color: #fff;
+    padding-top: 20%;
+    padding-bottom: 6.25%;
+    background-image: url("../../../images/1366-768.jpg");
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+.bg-img .face-img{
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+}
+.bg-img .face-img img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    vertical-align: top;
+    box-shadow:0 0 10px #000;
+}
+
+.user-info-cards{
+    margin-top: 0;
+}
+.single-card-info{
+    padding-left: 0 !important;
+}
+
+.card-header {
+    border-radius: .1rem .1rem 0 0;
+    font-size: .65rem;
+}
+
+.list-block{
+    margin: 0;
+    font-size: .45rem;
+}
+
+.list-block input[type=text],
+.list-block input[type=password],
+.list-block input[type=email],
+.list-block input[type=tel],
+.list-block input[type=url],
+.list-block input[type=date],
+.list-block input[type=datetime-local],
+.list-block input[type=time],
+.list-block input[type=number],
+.list-block input[type=search],
+.list-block select,
+.list-block textarea {
+    padding: 0 0 0 .20rem;
+    height: 2rem;
+    color: #3d4145;
+    font-size: .45rem;
+}

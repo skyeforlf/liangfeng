@@ -1,0 +1,11 @@
+.order-detail{
+    position: fixed;
+    width: 60%;
+    top: 100px;
+    left: 22%;
+    display: none;
+    z-index: 100;
+}
+.detail-close, .detail-look{
+    cursor: pointer;
+}

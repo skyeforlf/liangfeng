@@ -1,0 +1,317 @@
+@CHARSET "UTF-8";
+/*-------这些是开始的上边一条位置的css样式;-----*/
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style:none;
+}
+body{
+	font-size:12px;
+	background:#f5f5f5;
+	font-size:Times,TimesNR,'New Century Schoolbook',Georgia,'New York',serif;
+}
+#title{
+	height:30px;
+	background:#ff6900;
+    margin: 19px 0 0 0;
+}
+#title #title-nav{
+	width:900px;
+	margin:0 auto;
+}
+#title #title-nav h1{
+	font-size:12px;
+	color:#fff;
+	height:30px;
+	line-height:30px;
+	float:left;
+}
+#title #title-nav h1 a{
+	color:#fff100;
+}
+#title #title-nav ul{
+	float:right;
+}
+#title #title-nav ul li{
+	float:right;
+	height:30px;
+	line-height:30px;
+	margin:0 5px;
+	color:#fff;
+}
+#title #title-nav ul li a{
+	color:#fff;
+	display:block;
+	height:30px;
+	padding:0 10px;
+}
+#title #title-nav ul li a:hover{
+	color:#fff;
+	background:#e15f00;
+}
+
+
+/*@下面是是中间搜索框位置的css样式设置;*/
+#header{
+	background:#fff;
+	border-bottom:1px solid #ebebeb;
+	height:70px;
+}
+#header #header-search{
+	width:900px;
+	margin:0 auto;
+}
+#header #header-search .seller-title{
+	height:70px;
+	line-height:70px;
+	text-align:center;
+	width:140px;
+	float:left;
+    font-size: 25px;
+}
+#header #header-search .search{
+    float:left;
+    height:70px;
+}
+#header #header-search .search form{
+    margin:20px 0 0 70px;
+    border:2px solid #ff6900;
+    width:324px;
+    height:31px;
+}
+#header #header-search .search form input#search_text{
+    height:27px;
+    width:260px;
+    border:none;
+    text-indent:8px;
+    font-size:12px;
+}
+#header #header-search .search form input#search_button{
+    height:27px;
+    width:60px;
+    border:none;
+    background:#ff6900;
+}
+#header #header-search ul{
+
+	float:left;
+    margin: 0px 5% !important;
+    margin-bottom: 0px;
+}
+#header #header-search ul li{
+	height:70px;
+	width:130px;
+	float:left;
+	font-size:18px;
+}
+#header #header-search ul li#index{
+	background:url(../images/index.png) no-repeat 10% center;
+}
+#header #header-search ul li#book_meal{
+	text-indent:20px;
+}
+#header #header-search ul li#index:hover{
+	background:url(../images/index_hover.png) no-repeat 10% center;
+}
+#header #header-search ul li a{
+	color:#000;
+	display:block;
+	width:100px;
+	line-height:70px;
+	text-align:center;
+}
+#header #header-search ul li a:hover{
+	color:#ff6900;
+}
+/*@下面是一些详细的内容信息;*/
+#content{
+	width:900px;
+	margin:10px auto;
+	background:#fff;
+}
+#content #rest-or-food{
+	padding:10px 0;
+}
+#content #rest-or-food ul{
+	width:98%;
+	height:38px;
+	margin:0 auto;
+	border-bottom:2px solid #ff6900;
+}
+#content #rest-or-food ul li{
+	height:38px;
+	line-height:38px;
+	font-size:16px;
+	width:120px;
+	text-align:center;
+	float:left;
+}
+#content #rest-or-food ul li a#rest{
+	color:#fff;
+	display:block;
+	width:120px;
+	height:38px;
+	background:#ff6900;
+}
+#content #rest-or-food ul li a#food{
+	color:#000;
+	display:block;
+	width:120px;
+	height:38px;
+}
+#content #order{
+	width:98%;
+	height:38px;
+	margin:0 auto;
+}
+#content #order ul{
+	height:38px;
+	line-height:38px;
+	background:#efefef;
+}
+#content #order ul li{
+	float:left;
+	padding:0 20px;
+}
+#content #order ul li a{
+	color:#000;
+}
+#content #order ul li a:hover{
+	color:#ff6900;
+}
+#content #order .style-background{
+	background:#ff6900;
+}
+#content #restaurant #rest-one{
+	width:285px;
+	margin:10px 0 0 10px;
+	height:130px;
+	float:left;
+	border:1px solid #eee;
+}
+#content #restaurant #rest-one dl dt{
+	width:80px;
+	height:80px;
+	margin:10px;
+	float:left;
+}
+#content #restaurant #rest-one dl dd{
+	width:170px;
+	margin:5px 0 0 0;
+	float:left;
+	color:#666;
+	font-size:12px;
+	font-family:"楷体";
+}
+#content #restaurant #rest-one dl dd.rest-name{
+	margin:10px 0 0 0;
+	font-size:16px;
+	color:#000;
+}
+#content #restaurant #rest-one dl dd span{
+	color:#ff6900;
+}
+#content #restaurant #rest-one h1{
+	font-size:12px;
+	clear:both;
+	background:#efefef;
+	height:30px;
+	line-height:30px;
+	text-indent:10px;
+	font-weight:normal;
+	color:#999;
+}
+#content #restaurant h2{
+	clear:both;
+	width:287px;
+	height:40px;
+	margin:0 auto;
+}
+#content #restaurant h2 p{
+	height:10px;
+}
+#content #restaurant h2 a{
+	color:#000;
+	font-size:14px;
+	font-weight:normal;
+	line-height:30px;
+	text-align:center;
+	display:block;
+	width:287px;
+	height:30px;
+	background:#eee;
+}
+#content #restaurant h2 a:hover{
+	background:#ccc;
+}
+/*下面是一些声明--赞助等一些信息的css样式设置*/
+#clear{
+	clear:both;
+	height:0px;
+}
+#footer{
+	border-top:2px solid #ff6900;
+	margin:20px 0 0 0;
+	clear:both;
+}
+#footer ul{
+	width:700px;
+	margin:10px auto;
+	height:20px;
+	line-height:20px;
+}
+#footer ul li{
+	float:left;
+	margin:0 10px;
+}
+#footer p{
+	clear:both;
+	text-align:center;
+	margin:10px;
+}
+
+
+
+
+
+
+/*下面是一些杂七杂八的东西的css样式设置代码*/
+
+
+#code{
+	width:100px;
+	height:30px;
+}
+#codeimg{
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	left:210px;
+}
+#page{
+	height:100px;
+	border-top:1px solid #ddd;
+	clear:both;
+}
+#page p{
+	height:30px;
+	line-height:30px;
+	margin:30px auto 0px;
+	font-size:18px;
+	font-weight:bold;
+}
+#page p a{
+	color:#000;
+	background:#feeefe;
+	display:block;
+	width:240px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	margin:0 auto;
+}

@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background:#fff;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style:none;
+}
+#reg-header{
+	height:60px;
+	border-bottom:2px solid #ff6900;
+}
+#reg-header h1{
+	font-family:"楷体";
+	margin:0 0 0 100px;
+	float:left;
+	height:60px;
+	line-height:60px;
+	font-size:24px;
+}
+#reg-header h2{
+	float:left;
+	margin:30px 0 0 150px;
+	height:30px;
+	line-height:33px;
+	font-size:16px;
+	font-weight:normal;
+}
+#reg-header h2 a{
+	display:block;
+	width:80px;
+	height:30px;
+	background:#ff6900;
+	text-align:center;
+	color:#fff;
+}
+#reg-form{
+	margin:10px 0 0 100px;
+}
+#reg-form form dl{
+	
+}
+#reg-form form dl dd{
+	height:40px;
+	position:relative;
+}
+#reg-form form dl dd span{
+	width:100px;
+	text-align:right;
+	display:inline-block;
+}
+#reg-form form dl dd .text{
+	width:220px;
+	height:30px;
+	border:1px solid #efefef;
+	text-indent:8px;
+}
+#reg-form form dl dd p{
+	display:inline;
+	margin:0 0 0 15px;
+}
+#code{
+	width:100px;
+	height:30px;
+}
+#codeimg{
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	left:210px;
+}
+#reg-form form dl dd #submit{
+	width:220px;
+	height:40px;
+	margin:10px 0 0 100px;
+	font-size:18px;
+}
+#reg-form form dl dd select{
+	height:30px;
+	width:120px;
+	text-indent:10px;
+}
+#reg-form form dl dd select option{
+	text-indent:24px;
+	border-bottom:1px solid #ccc;
+}
+#reg-form form dl dd#describe{
+	height:120px;
+}
+#reg-form form dl dd#describe textarea{
+	resize:none;
+	height:100px;
+	width:220px;
+}

@@ -1,0 +1,184 @@
+@CHARSET "UTF-8";
+#seller-content{
+	width:1000px;
+	margin:40px auto;
+}
+#con-left{
+	width:200px;
+	float:left;
+	border:1px solid #ddd;
+	background:#fff;
+}
+#con-left #seller-face{
+	margin:24px;
+	width:150px;
+	height:150px;
+	border:1px solid #eee;
+}
+#con-left h1{
+	height:35px;
+	background:#ccc;
+	text-indent:20px;
+	line-height:35px;
+	font-size:16px;
+}
+#con-left ul li{
+	height:30px;
+	text-indent:60px;
+	line-height:30px;
+	font-size:14px;
+}
+#con-left ul li a{
+	display:block;
+	height:30px;
+	width:200px;
+	color:#000;
+}
+#con-left ul li a:hover{
+	background:#eee;
+}
+
+
+#con-right{
+	border:1px solid #ddd;
+	margin:0 0 0 20px;
+	background:#fff;
+	float:left;
+	width:720px;
+}
+#con-right #imp-con{
+	width:700px;
+	margin:20px 0 20px 20px;
+	height:110px;
+}
+#con-right #imp-con dl{
+	width:218px;
+	height:110px;
+	margin:0 10px 0 0;
+	float:left;
+	border:1px solid #fff;
+}
+#con-right #imp-con dl#new-book,#con-right #imp-con dl#all-book{
+	background:#7cbae5;
+}
+#con-right #imp-con dl#new-book:hover,#con-right #imp-con dl#all-book:hover{
+	background:#73afd9;
+}
+#con-right #imp-con dl#all-discuss{
+	background:#60d295;
+}
+#con-right #imp-con dl#all-discuss:hover{
+	background:#58c88d;
+}
+#con-right #imp-con dl dt{
+	margin:20px 0 0 0;
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+}
+#con-right #imp-con dl dd{
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+}
+#con-right #message{
+	clear:both;
+}
+#food-message h1{
+	font-size:20px;
+	padding:10px 20px;
+	background:#eee;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+#food-message #seller-food-infomation ul{
+	height:30px;
+	line-height:30px;
+}
+#food-message #seller-food-infomation ul li{
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	float:left;
+	border-right:1px solid #ddd;
+}
+.form-stuid{
+	width:100px;
+}
+.form-address{
+	width:160px;
+}
+.form-total-price{
+	width:60px;
+	color:red;
+}
+.seller-food-price{
+	width:80px;
+}
+.form-date{
+	width:140px;
+}
+.form-words{
+	width:185px;
+}
+.form-send{
+	width:69px;
+}
+.form-send a{
+	display:block;
+	width:69px;
+}
+#food-message #seller-food-infomation dl{
+	cursor:pointer;
+}
+#food-message #seller-food-infomation dl dd{
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	float:left;
+	border-right:1px solid #ddd;
+}
+
+#food-message #seller-food-infomation dl dt{
+	clear:both;
+	border-top:1px solid #ddd;
+	display:none;
+}
+#food-message #seller-food-infomation dl dt p{
+	display:none;
+}
+#food-message #seller-food-infomation dl dt ul{
+	height:20px;
+	margin:0 0 0 120px;
+}
+#food-message #seller-food-infomation dl dt ul li{
+	height:20px;
+	line-height:20px;
+	text-indent:30px;
+	text-align:left;
+	border-bottom:1px solid #ddd;
+	background:#f1f886;
+}
+#food-message #seller-food-infomation dl dt ul li span{
+	color:red;
+	font-weight:bold;
+}
+.food-name{
+	width:260px;
+}
+.food-num{
+	width:160px;
+}
+.food-unit-price{
+	width:160px;
+}
+#food-message #seller-food-infomation p{
+	clear:both;
+	border-top:1px solid #ddd;
+}
+#message h2{
+	height:20px;
+	clear:both;
+}
